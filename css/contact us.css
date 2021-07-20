@@ -1,0 +1,116 @@
+* {     
+    margin:0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif; 
+    transition: all .2s linear;
+}
+
+.form-container {
+min-height: 100vh; 
+width: 100vw; 
+display: flex;
+align-items: center; 
+justify-content: center;
+background-size: cover; 
+background-position: center;
+perspective: 1000px; 
+
+} 
+.form-container form{ 
+height:450px; 
+width:350px; 
+background: rgba(255,255,255,.1); 
+text-align: center;
+align-items: center;
+border-radius: 5px;
+box-shadow: 0 5px 15px rgba(0,0,0,.3);
+border-top: 1px solid rgba(255,255,255,.3);
+border-left: 1px solid rgba(255,255,255,.3);    
+backdrop-filter: blur(10px);
+transform-style: preserve-3d; 
+}
+
+.form-container form h3{ 
+font-size: 30px; 
+padding:30px 0; 
+color:#ccc; 
+letter-spacing: 3px; 
+} 
+
+.form-container form h3:hover{ 
+    font-size: 32px; 
+    } 
+
+
+.btn1
+{ 
+width:250px; 
+cursor: pointer; 
+background:linear-gradient(90deg, #4867aa, #ffffff); 
+margin-top: 30px; 
+border-radius: 50px; 
+text-align: center;
+color: white;
+transition: all .2s linear;
+} 
+
+.btn2
+{ 
+width:250px; 
+cursor: pointer; 
+background:linear-gradient(90deg,#5367d3 ,#8e37b9 ,#f3b44f,  #d62d75 ); 
+margin-top: 30px; 
+border-radius: 50px; 
+text-align: center;
+color: white;
+transition: background-color 12s ;
+} 
+.btn3
+{ 
+width:250px; 
+cursor: pointer; 
+background:linear-gradient(90deg, #29a4d9, #ffffff); 
+margin-top: 30px; 
+border-radius: 50px; 
+text-align: center;
+color: white;
+} 
+.btn4
+{ 
+width:250px; 
+cursor: pointer; 
+background:linear-gradient(90deg, #00a655, #ffffff); 
+margin-top: 30px; 
+border-radius: 50px; 
+text-align: center;
+color: white;
+} 
+
+
+
+.btn1:hover 
+{ 
+letter-spacing: 2px; 
+background:linear-gradient(90deg, #ffffff, #4867aa); 
+
+}        
+.btn2:hover 
+{ 
+letter-spacing: 2px; 
+background:linear-gradient(90deg, #d62d75 ,#f3b44f ,#8e37b9, #5367d3 ); 
+}   
+.btn3:hover 
+{ 
+letter-spacing: 2px; 
+background:linear-gradient(90deg, #ffffff, #29a4d9); 
+}       
+.btn4:hover 
+{ 
+letter-spacing: 2px; 
+background:linear-gradient(90deg, #ffffff, #00a655); 
+}       
+.container {
+display: block;
+}
+
