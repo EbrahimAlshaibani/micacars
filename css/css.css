@@ -275,3 +275,29 @@ margin-top: 10%;
 
 }
 
+@media (max-width: 1200px) {
+
+  body
+  {
+    background: fixed;
+    background-image: url(../imgs/Background/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;
+    background: reletive;
+    background-color: #1c2230;
+  }
+
+}
+@media (max-width: 700px) {
+  body
+  {
+    background: fixed;
+    background-image: url(../imgs/Background/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;
+    background: reletive;
+    background-color: #1c2230;
+  }
+}

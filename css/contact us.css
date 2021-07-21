@@ -2,7 +2,6 @@
     margin:0; 
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif; 
     transition: all .2s linear;
 }
 
@@ -47,7 +46,7 @@ letter-spacing: 3px;
 { 
 width:250px; 
 cursor: pointer; 
-background:linear-gradient(90deg, #4867aa, #ffffff); 
+background: #7794b3; 
 margin-top: 30px; 
 border-radius: 50px; 
 text-align: center;
@@ -57,34 +56,36 @@ transition: all .2s linear;
 
 .btn2
 { 
-width:250px; 
-cursor: pointer; 
-background:linear-gradient(90deg,#5367d3 ,#8e37b9 ,#f3b44f,  #d62d75 ); 
-margin-top: 30px; 
-border-radius: 50px; 
-text-align: center;
-color: white;
-transition: background-color 12s ;
+    width:250px; 
+    cursor: pointer; 
+    background: #7794b3; 
+    margin-top: 30px; 
+    border-radius: 50px; 
+    text-align: center;
+    color: white;
+    transition: all .2s linear;
 } 
 .btn3
 { 
-width:250px; 
-cursor: pointer; 
-background:linear-gradient(90deg, #29a4d9, #ffffff); 
-margin-top: 30px; 
-border-radius: 50px; 
-text-align: center;
-color: white;
+    width:250px; 
+    cursor: pointer; 
+    background: #7794b3; 
+    margin-top: 30px; 
+    border-radius: 50px; 
+    text-align: center;
+    color: white;
+    transition: all .2s linear;
 } 
 .btn4
 { 
-width:250px; 
-cursor: pointer; 
-background:linear-gradient(90deg, #00a655, #ffffff); 
-margin-top: 30px; 
-border-radius: 50px; 
-text-align: center;
-color: white;
+    width:250px; 
+    cursor: pointer; 
+    background: #7794b3; 
+    margin-top: 30px; 
+    border-radius: 50px; 
+    text-align: center;
+    color: white;
+    transition: all .2s linear;
 } 
 
 
@@ -92,23 +93,23 @@ color: white;
 .btn1:hover 
 { 
 letter-spacing: 2px; 
-background:linear-gradient(90deg, #ffffff, #4867aa); 
+
 
 }        
 .btn2:hover 
 { 
 letter-spacing: 2px; 
-background:linear-gradient(90deg, #d62d75 ,#f3b44f ,#8e37b9, #5367d3 ); 
+
 }   
 .btn3:hover 
 { 
 letter-spacing: 2px; 
-background:linear-gradient(90deg, #ffffff, #29a4d9); 
+
 }       
 .btn4:hover 
 { 
 letter-spacing: 2px; 
-background:linear-gradient(90deg, #ffffff, #00a655); 
+
 }       
 .container {
 display: block;
